@@ -1,0 +1,82 @@
+.country-btn {
+  appearance: none;
+  text-align: left;
+  text-decoration: none;
+  width: auto;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  border: 1px solid #e5e7eb;
+  background-color: transparent;
+  display: flex;
+  height: 37px;
+  padding: 8px 12px;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 4px;
+  margin-right: 15px;
+}
+
+.ALl-states-con {
+  display: flex;
+  overflow-x: auto;
+  flex-grow: 1;
+}
+
+.each-country-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow: visible;
+}
+
+.heading {
+  font-family: sans-serif;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.027px;
+  color: #1f2a37;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.span-ele {
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+}
+
+span {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.united-Kingdom {
+  font-size: 14px;
+}
+
+img {
+  border-style: none;
+  vertical-align: middle;
+  height: auto;
+  max-width: 100%;
+}
+
+.country-name {
+  white-space: nowrap;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  color: #231f20;
+  font-weight: 600;
+}

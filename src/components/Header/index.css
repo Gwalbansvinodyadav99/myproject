@@ -1,0 +1,115 @@
+.nav-bar-con {
+  min-height: 12vh;
+  background: transparent;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-bar-con {
+    background-color: transparent;
+    position: absolute;
+    box-shadow: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .menu {
+    display: flex;
+    margin-right: 5%;
+    margin-top: 8%;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
+
+.header-logo {
+  margin-left: 15px;
+  color: #ffffff;
+  display: flex;
+}
+
+.amber-logo {
+  align-self: center;
+  width: 100px;
+}
+
+.header-right-side-section {
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .header-right-side-section {
+    display: flex;
+  }
+}
+
+.section {
+  display: flex;
+  margin-right: 20px;
+}
+
+.header-heading-button {
+  padding-left: 5px;
+  font-family: "Roboto";
+  font-size: 22px;
+  color: #ffffff;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.icon {
+  align-self: center;
+  margin-right: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.login-section {
+  display: flex;
+  border: 1px solid #ffffff;
+  min-width: 100px;
+  height: 36px;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.menu-section {
+  display: flex;
+  border: 1px solid #ffffff;
+  min-width: 70px;
+  margin-right: 20px;
+  height: 36px;
+  align-self: center;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.login-section {
+  margin-right: 20px;
+  display: flex;
+}
+
+.login-btn {
+  background: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 600;
+  align-self: center;
+}
